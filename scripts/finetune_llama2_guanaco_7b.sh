@@ -1,5 +1,5 @@
-python qlora.py \
-    --model_name_or_path meta-llama/Llama-2-7b-hf \
+python3 qlora.py \
+    --model_name_or_path NousResearch/Llama-2-7b-hf \
     --use_auth \
     --output_dir ./output/llama-2-guanaco-7b \
     --logging_steps 10 \
